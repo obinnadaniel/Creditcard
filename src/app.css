@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box;
+}
+
+body{
+  background-color: #e0e0e0;
+  font-family:  ‘Aldrich’;font-size: 22px;
+  text-align: center;
+}
+.credit-card {
+  perspective: 1000px;
+}
+
+.creditcard-body {
+  max-width: 450px;
+  margin: auto;
+  height: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  padding: 8px 8px 20px 8px;
+  background-color:purple;
+  background: -webkit-linear-gradient(to right, #fc4591, purple, #b43a8f);
+  background: linear-gradient(to right, #fc4591, purple, #b43a8f); 
+  border-radius: 20px;
+  border-top: 2px solid #FFF;
+  border-right: 2px solid #FFF;
+  border-bottom: 2px solid #C1C1C1;
+  border-left: 2px solid #C1C1C1;
+
+}
+
+.creditcard-right-col {
+float: right;
+}
+
+.creditcard-back {
+  max-width: 450px;
+  margin: auto;
+  height: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+  padding: 8px 8px 20px 8px;
+    background-color:#FFF;
+    border-radius: 20px;
+    border-top: 2px solid #C1C1C1;
+    border-right: 2px solid #FFF;
+    border-bottom: 2px solid #C1C1C1;
+    border-left: 2px solid #C1C1C1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

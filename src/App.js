@@ -1,28 +1,53 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './app.css';
+import { Content } from 'react-mdl';
+import Creditcard from './components/creditcard';
+//import Cript from './components/cript';
+
 
 class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    );
-  }
+    render() {
+        return (
+            <section className="">
+                <div className="creditcard-body">
+                    <Creditcard/>
+                    <div className="creditcard-back">
+                        
+                    </div>
+                </div>
+            </section>
+        )
+    }
+}
+export default App;
+
+
+{/*class App extends Component {
+    constructor(){
+        super();
+
+        this.state = {
+            creditcard: ""
+        }
+    }
+
+    render() {
+        return (
+            <div>
+                <div className="creditcard-body">
+                <h6 style={{color:'#fff', fontSize: '10px', float:'right'}}>FIRST CITY MONUMENT BANK</h6>
+                    <img style={{float: 'left', marginTop: '10px', marginLeft: '40px'}}
+                    src="img/fcb.jpg"
+                    alt="go"
+                    />
+                    <img style={{float: 'left', marginTop: '100px'}}
+                    src="img/go.png"
+                    alt="ho"
+                    />
+                </div>
+            </div>
+        );
+    }
 }
 
-export default App;
+export default App;*/}
